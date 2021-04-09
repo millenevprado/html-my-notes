@@ -11,6 +11,7 @@ PRINCIPAIS GUIAS E REFERÊNCIAS:
 # ÍNDICE 
 
 - [INTRODUÇÃO](#introduction)
+- [TEXTO](#text)
 
 
 
