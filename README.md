@@ -80,7 +80,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![](imagens/primeira_pag.png)
 
-<strong>VER CÓDIGO:</strong> [arquivo do código da minha primeira página web](exemplos.index.html)
+<strong>VER CÓDIGO:</strong> [arquivo do código da minha primeira página web](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/index.html)
 
 <h1> <a name = "text"></a>TEXTO</h1>
 
@@ -105,7 +105,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 <h6>TÍTULO NÍVEL 6</h6>
 ```
 
-<strong>VER CÓDIGO:</strong> [código com exemplo empregando títulos](exemplos/titulo.html)
+<strong>VER CÓDIGO:</strong> [código com exemplo empregando títulos](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/titulos.html)
 
 ## PARÁGRAFOS
 
@@ -163,5 +163,5 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![usando_tag_pre](imagens/usando_tag_pre.png)
 
-<strong>VER CÓDIGO:</strong> [código com exemplos de parágrafos, quebra de linha, linha horizontal e texto pré-formatado](exemplos/paragrafos.html)
+<strong>VER CÓDIGO:</strong> [código com exemplos de parágrafos, quebra de linha, linha horizontal e texto pré-formatado](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/paragrafos.html)
 
