@@ -22,7 +22,7 @@ PRINCIPAIS GUIAS E REFERÊNCIAS:
 
 <p align = "justify"> O conteúdo de uma página web é criado em HTML. A organização e o visual desse conteúdo, posição dos componentes, cores dos textos e tudo mais é definido em CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata). O menu de navegação e as interações em geral da página, por sua vez, são desenvolvidos em JavaScript.</p>
 
-![funcionamento_pag_web](imagens/pagweb_func.png)
+![funcionamento_pag_web](imagens/introduction/pagweb_func.png)
 
 
 
@@ -30,7 +30,7 @@ PRINCIPAIS GUIAS E REFERÊNCIAS:
 
 <p align = "justify"> Os elementos são definidos por uma tag (marcação) de abertura, algum conteúdo, e uma tag de fechamento.  As tags agem como containers, dizendo algo sobre as informações que estão entre suas tags de abertura e fechamento (DUCKETT, 2011). </p>
 
-![elemento_html](imagens/elemento_html.png)
+![elemento_html](imagens/introduction/elemento_html.png)
 
 > <strong>Observação:</strong> alguns elementos HTML não têm conteúdo. Eles são chamados de elementos vazios e não   	possuem tag de fechamento.
 
@@ -38,13 +38,13 @@ PRINCIPAIS GUIAS E REFERÊNCIAS:
 
 <p align = "justify">Os elementos HTML podem ter atributos, que irão fornecer informações adicionais sobre eles. Esses atributos são sempre especificados na tag de abertura e, geralmente, vêm em pares de nome/valor: <strong>nome = "valor"</strong>. </p>
 
-![atributo_elemento_html](imagens/atributo_elemento_html.png)
+![atributo_elemento_html](imagens/introduction/atributo_elemento_html.png)
 
 ## ESTRUTURA DA PÁGINA HTML
 
 Uma página HTML possui a seguinte estrutura:
 
-![](imagens/estrutura_html.png)
+![](imagens/introduction/estrutura_html.png)
 
 Código básico de um documento HTML:
 
@@ -72,13 +72,13 @@ Código básico de um documento HTML:
     <li> <code>tittle</code>: é o elemento que especifica um título para a página HTML (mostrado na barra de título do navegador ou na guia da página).</li>
     <li> <code>body</code>: é o elemento que vai definir o corpo do documento. É um container para todo o conteúdo visível, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc. </li>
 </ol>
-![dica](imagens/dica_cod_base.png)
+
 
 ## CRIANDO MINHA PRIMEIRA PÁGINA
 
 Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a nossa primeira página web:
 
-![](imagens/primeira_pag.png)
+![](imagens/introduction/primeira_pag.png)
 
 <strong>VER CÓDIGO:</strong> [arquivo do código da minha primeira página web](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/index.html)
 
@@ -124,7 +124,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 </p>
 ```
 
-![](imagens/espaco.png)
+![](imagens/text/espaco.png)
 
 ### Inserindo quebra de linha
 
@@ -137,13 +137,13 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 </p>
 ```
 
-![](imagens/usando_tag_br.png)
+![](imagens/text/usando_tag_br.png)
 
 ### Inserindo uma linha horizontal
 
 <p align = "justify">Podemos também usar a tag &lt;hr&gt; para definir uma quebra temática em uma página HTML, que exibe uma linha horizontal: 
 
-![](imagens/usando_tag_hr.png)
+![](imagens/text/usando_tag_hr.png)
 
 ### Mantendo a formatação do texto
 
@@ -163,7 +163,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 </pre>
 ```
 
-![usando_tag_pre](imagens/usando_tag_pre.png)
+![usando_tag_pre](imagens/text/usando_tag_pre.png)
 
 <strong>VER CÓDIGO:</strong> [código com exemplos de parágrafos, quebra de linha, linha horizontal e texto pré-formatado](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/paragrafos.html)
 
