@@ -32,7 +32,7 @@ PRINCIPAIS GUIAS E REFERÊNCIAS:
 
 ![elemento_html](imagens/introduction/elemento_html.png)
 
-> <strong>Observação:</strong> alguns elementos HTML não têm conteúdo. Eles são chamados de elementos vazios e não   	possuem tag de fechamento.
+> <strong>OBSERVAÇÃO:</strong> alguns elementos HTML não têm conteúdo. Eles são chamados de elementos vazios e não   possuem tag de fechamento.
 
 ### Atributos dos Elementos HTML
 
@@ -139,9 +139,12 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![](imagens/text/usando_tag_br.png)
 
+> <strong>OBSERVAÇÃO:</strong>  &lt e &gt são usados no código acima para representar os caracteres (<) e (>) reservados em HTML e são conhecidos como HTML entities. Saiba mais em: [HTML Entities](https://www.w3schools.com/html/html_entities.asp).
+
 ### Inserindo uma linha horizontal
 
-<p align = "justify">Podemos também usar a tag &lt;hr&gt; para definir uma quebra temática em uma página HTML, que exibe uma linha horizontal: 
+<p align = "justify">Podemos também usar a tag &lt;hr&gt; para definir uma quebra temática em uma página HTML, que exibe uma linha horizontal:</p> 
+
 
 ![](imagens/text/usando_tag_hr.png)
 
@@ -167,3 +170,53 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 <strong>VER CÓDIGO:</strong> [código com exemplos de parágrafos, quebra de linha, linha horizontal e texto pré-formatado](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/paragrafos.html)
 
+## ELEMENTOS SEMÂNTICOS
+
+<p align = "justify">Elementos semânticos são elementos que possuem significado. O objetivo deles é descrever o conteúdo de páginas da web, tanto para o browser quanto para o desenvolvedor, com mais precisão (focar no significado). Não devemos usá-los para alterar a aparência do texto (forma), para isso temos o CSS. </p>
+
+![](imagens/text/pq_elementos_semanticos.png)
+
+### Strong e Emphasis
+
+<p align = "justify">O elemento HTML &lt;strong&gt; define o texto com grande importância. O conteúdo interno é normalmente exibido em negrito. </p>
+
+```html
+<strong>Este texto é importante</strong>   
+
+<p>Este brinquedo pode ter peças pequenas e <strong>não</strong> é adequado para crianças menores de 5 anos.</p>
+```
+
+<p align = "justify">O elemento HTML &lt;em&gt; define o texto enfatizado. O conteúdo interno é normalmente exibido em itálico. Por exemplo, um leitor de tela pronunciará as palavras em &lt;em&gt; com ênfase, usando ênfase verbal. </p>
+
+```html
+<em>Este texto é enfatizado</em>
+```
+
+
+
+### Citações
+
+<p align = "justify">O elemento HTML &lt;blockquote&gt; define uma seção citada de outra fonte. Os navegadores geralmente recuam os elementos &lt;blockquote&gt;:    
+
+```html
+<p>Os navegadores geralmente identam os elementos &lt;blockquote&gt;, como podemos nesse exemplo:</p>
+<blockquote cite = "http://www.worldwildlife.org/who/index.html">
+Há 50 anos, o WWF protege o futuro da natureza.
+A principal organização de conservação do mundo,
+WWF trabalha em 100 países e é apoiado por
+1,2 milhão de membros nos Estados Unidos e
+perto de 5 milhões globalmente.
+</blockquote>
+```
+
+![](imagens/text/usando_blockquote.png)
+
+<p align = "justify">A tag HTML &lt;q&gt; define uma citação curta. Os navegadores normalmente inserem aspas entre a citação. </p>
+
+```html
+<p>
+    Como disse o mestre jedi Obi Wan Kenobi para Luke Skywalker, no Episódio IV, <q>may the force be with you.</q>
+</p>
+```
+
+![](imagens/text/usando_q.png)
