@@ -183,7 +183,8 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 ```html
 <strong>Este texto é importante</strong>   
 
-<p>Este brinquedo pode ter peças pequenas e <strong>não</strong> é adequado para crianças menores de 5 anos.</p>
+<p>Este brinquedo pode ter peças pequenas e <strong>não</strong>
+   é adequado para crianças menores de 5 anos.</p>
 ```
 
 <p align = "justify">O elemento HTML &lt;em&gt; define o texto enfatizado. O conteúdo interno é normalmente exibido em itálico. Por exemplo, um leitor de tela pronunciará as palavras em &lt;em&gt; com ênfase, usando ênfase verbal. </p>
@@ -199,7 +200,11 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 <p align = "justify">O elemento HTML &lt;blockquote&gt; define uma seção citada de outra fonte. Os navegadores geralmente recuam os elementos &lt;blockquote&gt;:    
 
 ```html
-<p>Os navegadores geralmente identam os elementos &lt;blockquote&gt;, como podemos nesse exemplo:</p>
+<p>
+    Os navegadores geralmente identam os elementos &lt;blockquote&gt;,
+    como podemos nesse exemplo:
+</p>
+
 <blockquote cite = "http://www.worldwildlife.org/who/index.html">
 Há 50 anos, o WWF protege o futuro da natureza.
 A principal organização de conservação do mundo,
@@ -215,7 +220,8 @@ perto de 5 milhões globalmente.
 
 ```html
 <p>
-    Como disse o mestre jedi Obi Wan Kenobi para Luke Skywalker, no Episódio IV, <q>may the force be with you.</q>
+    Como disse o mestre jedi Obi Wan Kenobi para Luke Skywalker, 
+    no Episódio IV, <q>may the force be with you.</q>
 </p>
 ```
 
