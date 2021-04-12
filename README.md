@@ -2,11 +2,15 @@
 
 <h2 align = "justify"> Este repositório é um compilado do conhecimento que estou adquirindo ao estudar HTML. Ele contém minhas anotações pessoais, exercícios, insights e resumos sobre HTML e serve como um guia para auxiliar e direcionar os meus estudos! &#x1F4DA </h2>
 
-PRINCIPAIS GUIAS E REFERÊNCIAS: 
+<h4 align = "justify">CURSOS QUE ESTOU FAZENDO/FIZ E QUE SERVEM DE BASE PARA O DESENVOLVIMENTO DESSE COMPILADO: </h4> 
 
-* HTML5 e CSS3 do Curso em Vídeo 
-* HTML Web Developer da Digital Innovation One
-* Avanade Angular Developer da Digital Innovation One
+* CS50's Introduction to Computer Science - Harvard University
+* Cs50's Web Programming with Python and JavaScript - Harvard University
+* HTML5 e CSS3 - Curso em Vídeo 
+* HTML Web Developer - Digital Innovation One
+* Avanade Angular Developer - Digital Innovation One
+
+
 
 # ÍNDICE 
 
@@ -80,7 +84,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![](imagens/introduction/primeira_pag.png)
 
-<strong>VER CÓDIGO:</strong> [arquivo do código da minha primeira página web](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/index.html)
+<strong>VER CÓDIGO:</strong> [minha primeira página web](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/index.html).
 
 <hr>
 
@@ -107,7 +111,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 <h6>TÍTULO NÍVEL 6</h6>
 ```
 
-<strong>VER CÓDIGO:</strong> [código com exemplo empregando títulos](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/titulos.html)
+<strong>VER CÓDIGO:</strong> [exemplo empregando títulos](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/titulos.html).
 
 ## PARÁGRAFOS
 
@@ -128,7 +132,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ### Inserindo quebra de linha
 
-<p align = "justify">Para  quebrar uma linha (criar uma nova linha), sem começar um novo parágrafo, podemos usar a tag &lt;br&gt; , que é uma tag vazia, ou seja, não tem tag de fechamento. A tag &lt;br&gt; significa literalmente "quebre a linha" (break row). Por exemplo: </p>
+<p align = "justify">Para  quebrar uma linha (criar uma nova linha), sem começar um novo parágrafo, podemos usar a tag &lt;br&gt;, que é uma tag vazia, ou seja, não tem tag de fechamento. A tag &lt;br&gt; significa literalmente "quebre a linha" (break row). Por exemplo: </p>
 
 ```html
 <p>
@@ -168,7 +172,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![usando_tag_pre](imagens/text/usando_tag_pre.png)
 
-<strong>VER CÓDIGO:</strong> [código com exemplos de parágrafos, quebra de linha, linha horizontal e texto pré-formatado](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/paragrafos.html)
+<strong>VER CÓDIGO:</strong> [exemplos de parágrafos, quebra de linha, linha horizontal e texto pré-formatado](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/paragrafos.html).
 
 ## ELEMENTOS SEMÂNTICOS
 
