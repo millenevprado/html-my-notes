@@ -1,3 +1,5 @@
+
+
 ![capa](imagens/capa.png)
 
 <h2 align = "justify"> Este repositório é um compilado do conhecimento que estou adquirindo ao estudar HTML. Ele contém minhas anotações pessoais, exercícios, insights e resumos sobre HTML e serve como um guia para auxiliar e direcionar os meus estudos! &#x1F4DA </h2>
@@ -12,10 +14,15 @@
 
 
 
+> OBSERVAÇÃO: algumas partes deste material foram traduzidas diretamente do Tutorial HTML da [w3schools.com](https://www.w3schools.com/html/default.asp). As referências completas estão disponíveis [aqui](#references).
+
+
+
 # ÍNDICE 
 
 - [INTRODUÇÃO](#introduction)
 - [TEXTO](#text)
+- [LISTAS](#lists)
 
 <hr>
 
@@ -191,11 +198,17 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
    é adequado para crianças menores de 5 anos.</p>
 ```
 
+![](imagens/text/usando_tag_strong.png)
+
+
+
 <p align = "justify">O elemento HTML &lt;em&gt; define o texto enfatizado. O conteúdo interno é normalmente exibido em itálico. Por exemplo, um leitor de tela pronunciará as palavras em &lt;em&gt; com ênfase, usando ênfase verbal. </p>
 
 ```html
 <em>Este texto é enfatizado</em>
 ```
+
+![](imagens/text/usando_tag_em.png)
 
 
 
@@ -230,3 +243,48 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 ```
 
 ![](imagens/text/usando_q.png)
+
+<p align = "justify">O elemento HTML &lt;abb&gt; é empregado para definir uma abreviatura ou acrônimo, como "HTML", "CSS". Essas abreviações de marcação podem fornecer informações úteis para navegadores, sistemas de tradução e mecanismos de pesquisa.</p>
+
+```html
+<p>
+    Este compilado contém informações, resumos e exemplos 
+    de todo conhecimento que estou adquirindo ao estudar
+    <abbr title="Hyper Text Markup Language">HTML.</abbr>
+</p>
+```
+
+
+
+<p align = "justify">Quando estamos referenciando um trabalho como um livro, filme ou artigo de pesquisa, o elemento &lt;cite&gt; pode ser usado para indicar a origem da citação. O texto no elemento &lt;cite&gt; geralmente é renderizado em itálico. </p>
+
+> <strong>OBSERVAÇÃO:</strong> &lt;cite&gt; não deve ser usado para o nome de uma pessoa. 
+
+
+
+```html
+<p>
+    <cite>Batman Begins</cite> é o melhor filme do Batman feito até hoje.
+</p>
+```
+
+![](imagens/text/usando_tag_cite.png)
+
+<p align = "justify">O elemento &lt;address&gt; é utilizado para definir as informações de contato do autor/proprietário de um documento ou artigo. Essas informações podem ser um endereço de e-mail, URL, endereço físico, número de telefone, etc. Os navegadores geralmente mostram o conteúdo do elemento &lt;address&gt; em itálico. </p>
+
+```html
+<adress>
+    Escrito por Millene Prado <br />
+    <a href="mailto:">meuemail@hotmail.com</a> <br />
+    Goiânia - GO
+</adress>
+```
+
+![](imagens/text/usando_tag_adress.png)
+
+<strong>VER CÓDIGO:</strong> [exemplos elementos semânticos](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/elementos-semanticos.html).
+
+<hr>
+
+<h1> <a name = "lists"></a>LISTAS</h1>
+
