@@ -72,7 +72,7 @@ Código básico de um documento HTML:
     <li> <code>tittle</code>: é o elemento que especifica um título para a página HTML (mostrado na barra de título do navegador ou na guia da página).</li>
     <li> <code>body</code>: é o elemento que vai definir o corpo do documento. É um container para todo o conteúdo visível, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc. </li>
 </ol>
-![](imagens/dica_cod_base.png)
+![dica](imagens/dica_cod_base.png)
 
 ## CRIANDO MINHA PRIMEIRA PÁGINA
 
