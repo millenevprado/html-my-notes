@@ -1,6 +1,6 @@
 ![capa](imagens/capa.png)
 
-<h2 align = "justify"> Este repositório é um compilado do conhecimento que estou adquirindo ao estudar HTML. Ele contém minhas anotações pessoais, exercícios, insights e resumos sobre HTML e serve como um guia para auxiliar e direcionar os meus estudos! &#x1F4DA </h2> 
+<h2 align = "justify"> Este repositório é um compilado do conhecimento que estou adquirindo ao estudar HTML. Ele contém minhas anotações pessoais, exercícios, insights e resumos sobre HTML e serve como um guia para auxiliar e direcionar os meus estudos! &#x1F4DA </h2> <hr>
 
 PRINCIPAIS GUIAS E REFERÊNCIAS: 
 
@@ -13,7 +13,7 @@ PRINCIPAIS GUIAS E REFERÊNCIAS:
 - [INTRODUÇÃO](#introduction)
 - [TEXTO](#text)
 
-
+<hr>
 
 
 <h1> <a name = "introduction"></a>INTRODUÇÃO</h1>
@@ -81,6 +81,8 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 ![](imagens/primeira_pag.png)
 
 <strong>VER CÓDIGO:</strong> [arquivo do código da minha primeira página web](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/index.html)
+
+<hr>
 
 <h1> <a name = "text"></a>TEXTO</h1>
 
