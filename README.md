@@ -5,7 +5,7 @@
 <h4 align = "justify">CURSOS QUE ESTOU FAZENDO/FIZ E QUE SERVEM DE BASE PARA O DESENVOLVIMENTO DESSE COMPILADO: </h4> 
 
 * CS50's Introduction to Computer Science - Harvard University
-* Cs50's Web Programming with Python and JavaScript - Harvard University
+* CS50's Web Programming with Python and JavaScript - Harvard University
 * HTML5 e CSS3 - Curso em Vídeo 
 * HTML Web Developer - Digital Innovation One
 * Avanade Angular Developer - Digital Innovation One
@@ -210,11 +210,11 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 </p>
 
 <blockquote cite = "http://www.worldwildlife.org/who/index.html">
-Há 50 anos, o WWF protege o futuro da natureza.
-A principal organização de conservação do mundo,
-WWF trabalha em 100 países e é apoiado por
-1,2 milhão de membros nos Estados Unidos e
-perto de 5 milhões globalmente.
+    Há 50 anos, o WWF protege o futuro da natureza.
+    A principal organização de conservação do mundo,
+    WWF trabalha em 100 países e é apoiado por
+    1,2 milhão de membros nos Estados Unidos e
+    perto de 5 milhões globalmente.
 </blockquote>
 ```
 
