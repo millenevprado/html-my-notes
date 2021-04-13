@@ -23,6 +23,7 @@
 - [INTRODUÇÃO](#introduction)
 - [TEXTO](#text)
 - [LISTAS](#lists)
+- [LINKS](#links)
 
 <hr>
 
@@ -288,3 +289,79 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 <h1> <a name = "lists"></a>LISTAS</h1>
 
+<p align = "justify"> A linguagem HTML disponibiliza três tipos de lista para agrupar um conjunto de itens relacionados: </p>
+
+* listas ordenadas;
+* listas não ordenadas;
+* listas de definições.
+
+## LISTAS ORDENADAS
+
+<p align = "justify"> A lista ordenada é criada com o elemento &lt;ol&gt; (<em>ordered list</em>) e cada item desta lista é identificado com o elemento &lt;li&gt; (<em>list element</em>). Por exemplo, podemos usar o conceito de listas ordenadas para criar uma lista da ordem cronológica dos filmes da saga Harry Potter:  </p>
+
+```html
+<ol>
+    <li>Harry Potter e a Pedra Filosofal</li>
+    <li>Harry Potter e a Câmara Secreta </li>
+    <li>Harry Potter e o Prisioneiro de Azkaban</li>
+    <li>Harry Potter e o Cálice de Fogo</li>
+    <li>Harry Potter e a Ordem da Fênix</li>
+    <li>Harry Potter e o Enigma do Príncipe</li>
+    <li>Harry Potter e as Relíquias da Morte: Parte 1</li>
+    <li>Harry Potter e as Relíquias da Morte: Parte 2</li>
+</ol>
+```
+
+
+
+![](imagens/lists/usando_tag_ol.png)
+
+
+
+## LISTAS NÃO ORDENADAS
+
+<p align = "justify"> A lista não ordenada é criada com o elemento &lt;ul&gt; (<em>unordered list</em>) e cada item desta lista é identificado com o elemento &lt;li&gt; (<em>list element</em>). Usamos a lista não ordenada com os itens não apresentam uma ordem de classificação. Por exemplo, posso usar uma lista não ordenada para agrupar as principais séries da DC Comics que estão disponíveis atualmente na Netflix: </p>
+
+```html
+<ul>
+    <li>The Flash</li>
+    <li>Supergirl</li>
+    <li>Arrow</li>
+    <li>Legends of Tomorrow</li>
+    <li>Titans</li>
+</ul>
+```
+
+
+
+![](imagens/lists/usando_tag_ul.png)
+
+
+
+## LISTAS DE DEFINIÇÕES
+
+<p align = "justify">Uma lista de definições consiste de uma lista de termos com suas respectivas descrições. É criada com o elemento &lt;dl&gt; (<em>definition list</em>). Cada termo (nome) é um &lt;dt&gt; (<em>definition term</em>) e cada descrição é um &lt;dd&gt; (<em>definition description</em>). Por exemplo, podemos usar uma lista de definições para descrever os principais feitiços usados na saga Harry Potter: </p>
+
+```html
+<dl>
+    <dt>Accio</dt>
+    <dd>Feitiço de encantamento usado para convocar objetos.</dd>
+    <dt>Alohomora</dt>
+    <dd>Feitiço de encantamento que serve para destrancar portas.</dd>
+    <dt>Expecto Patronum</dt>
+    <dd>Feitiço de encantamento que conjura um espírito protetor 
+        para proteção contra criaturas das trevas./dd>   
+    <dt>Petrificus Totalus</dt>
+    <dd>Feitiço de maldição que petrifica o adversário.</dd>
+    <dt>Wingardium Leviosa</dt>
+    <dd>Feitiço de encantamento que serve para fazer objetos levitarem./dd>
+</dl>
+```
+
+
+
+![](imagens/lists/usando_tag_dl.png)
+
+<hr>
+
+<h1> <a name = "links"></a>LINKS</h1>
