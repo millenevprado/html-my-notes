@@ -362,6 +362,8 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![](imagens/lists/usando_tag_dl.png)
 
+<strong>VER CÓDIGO:</strong> [exemplos listas](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/listas.html).
+
 <hr>
 
 <h1> <a name = "links"></a>LINKS</h1>
