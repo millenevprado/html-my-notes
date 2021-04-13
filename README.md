@@ -219,7 +219,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 ```html
 <p>
     Os navegadores geralmente identam os elementos &lt;blockquote&gt;,
-    como podemos nesse exemplo:
+    como podemos ver nesse exemplo:
 </p>
 
 <blockquote cite = "http://www.worldwildlife.org/who/index.html">
