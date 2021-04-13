@@ -280,7 +280,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 </adress>
 ```
 
-![](imagens/text/usando_tag_adress.png)
+![](imagens/text/usando_tag_address.png)
 
 <strong>VER CÓDIGO:</strong> [exemplos elementos semânticos](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/elementos-semanticos.html).
 
