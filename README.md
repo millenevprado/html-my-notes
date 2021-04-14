@@ -6,11 +6,11 @@
 
 <h4 align = "justify">CURSOS QUE ESTOU FAZENDO/FIZ E QUE SERVEM DE BASE PARA O DESENVOLVIMENTO DESSE COMPILADO: </h4> 
 
-* CS50's Introduction to Computer Science - Harvard University
-* CS50's Web Programming with Python and JavaScript - Harvard University
-* HTML5 e CSS3 - Curso em Vídeo 
-* HTML Web Developer - Digital Innovation One
-* Avanade Angular Developer - Digital Innovation One
+* [CS50's Introduction to Computer Science - Harvard University](https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0)
+* [CS50's Web Programming with Python and JavaScript - Harvard University](https://online-learning.harvard.edu/course/cs50s-web-programming-python-and-javascript?delta=0)
+* [HTML5 e CSS3 - Curso em Vídeo](https://www.cursoemvideo.com/course/html5-css3-modulo1/) 
+* [HTML Web Developer - Digital Innovation One](https://digitalinnovation.one/)
+* [Avanade Angular Developer - Digital Innovation One](https://digitalinnovation.one/)
 
 
 
@@ -381,3 +381,11 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 ## LIVROS
 
 DUCKETT, Jon. **HTML & CSS: design and build websites**. Indianapolis, IN: Wiley, 2011.
+
+
+
+## TUTORIAIS 
+
+[HTML Introduction - W3Schools](https://www.w3schools.com/html/html_intro.asp)
+
+[Introdução ao HTML - MDN Web Docs](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML)
