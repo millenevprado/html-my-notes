@@ -367,3 +367,17 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 <hr>
 
 <h1> <a name = "links"></a>LINKS</h1>
+
+
+
+
+
+
+
+<h1> <a name = "references"></a>REFERÊNCIAS</h1>
+
+
+
+## LIVROS
+
+DUCKETT, Jon. **HTML & CSS: design and build websites**. Indianapolis, IN: Wiley, 2011.
