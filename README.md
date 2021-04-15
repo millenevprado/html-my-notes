@@ -399,6 +399,8 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 
 
+<strong>VER CÓDIGO:</strong> [exemplo empregando links](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
+
 
 
 <h1> <a name = "references"></a>REFERÊNCIAS</h1>
