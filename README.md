@@ -370,6 +370,33 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 
 
+<p align = "justify">Os links permitem que os usuários cliquem para ir de uma página para outra. Eles são criados usando o elemento &lt;a&gt; e seu principal atributo <code>href</code> é responsável por criar a referência. O texto do link, que é a parte que fica visível para o usuário clicar é colocado entre a tag de abertura &lt;a&gt; e a tag de fechamento &lt;/a&gt;. </p>
+
+
+
+```html
+<a href="https://github.com/millenevprado">Meu perfil do GitHub</a>
+```
+
+
+
+![](imagens/links/usando_tag_a_href.png)
+
+
+
+<p align = "justify">Por padrão, quando eu clicar no link, o site de destino vai abrir na mesma janela do site que continha esse link. Para alterar isso, é preciso especificar outro destino para o link, o que pode ser feito usando o atributo <code>target</code>, que possui os seguintes valores: 
+<ul>
+    <li><code>_blank</code>: abre o link em uma nova janela em branco </li> 
+    <li><code>_self</code>: abre o link na janela ou frame atual (padrão)</li> 
+    <li><code>_top</code>: abre o documento em todo o corpo da janela</li> 
+    <li><code>_top</code>: abre o documento em uma referência à janela mãe</li> </ul> </p>
+
+
+
+```html
+<a href="https://github.com/millenevprado" target="_blank">Meu perfil do GitHub em uma nova janela</a>
+```
+
 
 
 
