@@ -24,6 +24,7 @@
 - [TEXTO](#text)
 - [LISTAS](#lists)
 - [LINKS](#links)
+- [IMAGENS](#images)
 
 <hr>
 
@@ -320,7 +321,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ## LISTAS NÃO ORDENADAS
 
-<p align = "justify"> A lista não ordenada é criada com o elemento &lt;ul&gt; (<em>unordered list</em>) e cada item desta lista é identificado com o elemento &lt;li&gt; (<em>list element</em>). Usamos a lista não ordenada com os itens não apresentam uma ordem de classificação. Por exemplo, posso usar uma lista não ordenada para agrupar as principais séries da DC Comics que estão disponíveis atualmente na Netflix: </p>
+<p align = "justify"> A lista não ordenada é criada com o elemento &lt;ul&gt; (<em>unordered list</em>) e cada item desta lista é identificado com o elemento &lt;li&gt; (<em>list element</em>). Usamos a lista não ordenada com os itens que não apresentam uma ordem de classificação. Por exemplo, posso usar uma lista não ordenada para agrupar as principais séries da DC Comics que estão disponíveis atualmente na Netflix: </p>
 
 ```html
 <ul>
@@ -370,7 +371,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 
 
-<p align = "justify">Os links permitem que os usuários cliquem para ir de uma página para outra. Eles são criados usando o elemento &lt;a&gt; e seu principal atributo <code>href</code> é responsável por criar a referência. O texto do link, que é a parte que fica visível para o usuário clicar é colocado entre a tag de abertura &lt;a&gt; e a tag de fechamento &lt;/a&gt;. </p>
+<p align = "justify">Os links permitem que os usuários cliquem para ir de uma página para outra. Eles são criados usando o elemento &lt;a&gt; (<em>anchor</em>) e seu principal atributo, <code>href</code>, é responsável por criar a referência. O texto do link, que é a parte que fica visível para o usuário clicar é colocado entre a tag de abertura &lt;a&gt; e a tag de fechamento &lt;/a&gt;. </p>
 
 
 
@@ -382,7 +383,7 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ![](imagens/links/usando_tag_a_href.png)
 
-
+## ATRIBUTO <em>TARGET</em>
 
 <p align = "justify">Por padrão, quando eu clicar no link, o site de destino vai abrir na mesma janela do site que continha esse link. Para alterar isso, é preciso especificar outro destino para o link, o que pode ser feito usando o atributo <code>target</code>, que possui os seguintes valores: 
 <ul>
@@ -399,7 +400,50 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 
 
+## ATRIBUTO <em>REL</em>
+
+<p align = "justify"> O atributo <code>rel</code> é usado para indicar qual é a natureza do destino do link. De acordo com o prof. <a href="https://gustavoguanabara.github.io/">Gustavo Guanabara</a> esse atributo aceita vários valores, como por exemplo: 
+
+<ul>
+    <li><code>next</code>: indica que o link é referente a próxima parte do documento atual</li> 
+    <li><code>prev</code>: indica que o link é referente a parte anterior do documento atual</li> 
+    <li><code>author</code>: indica que é um link para o site do autor do artigo atual</li> 
+    <li><code>external</code>: indica que é um link para outro site que não faz parte do site atual</li> 
+    <li><code>notfollow</code>: indica que é um link para um site não endossado, como um link pago</li>     
+</ul> 
+
+
+
+Usando o atributo <code>rel</code> com o valor <code>next:</code>
+
+```html
+<p>
+    Esta é a primeira página do site. Podemos acessar 
+    também a <a href="links_pag02.html" rel="next" target="_self">segunda página</a>
+</p>
+```
+
+
+
+<p align = "justify"> Neste exemplo, usamos um <strong>link interno</strong> (<code>href="links_pag02.html"</code>) que leva o usuário para outra página dentro do nosso próprio site. Um link interno é especificado com uma <strong>URL relativa</strong>, ou seja, uma URL sem a parte <code>https://www</code>. Um <strong>link externo</strong>, por usa vez, como já vimos, leva o usuário para outro site e, neste caso, usamos a <strong>URL completa</strong>, incluindo o protocolo <code>http://</code> ou <code>https://</code>. </p>
+
+
+
+## EMAIL
+
+<p align = "justify"> Podemos usar o valor <code>mailto:</code> dentro do atributo <code>href</code> para criar um link que abre o programa de email do usuário (para permitir que ele envie um novo e-mail): </p>
+
+```html
+<a href="mailto:meuemail@exemplo.com">Enviar email</a>
+```
+
+
+
 <strong>VER CÓDIGO:</strong> [exemplo empregando links](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
+
+
+
+<h1> <a name = "images"></a>IMAGENS</h1>
 
 
 
