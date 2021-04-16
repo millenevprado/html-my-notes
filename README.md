@@ -402,7 +402,8 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 
 ## ATRIBUTO <em>REL</em>
 
-<p align = "justify"> O atributo <code>rel</code> é usado para indicar qual é a natureza do destino do link. De acordo com o prof. <a href="https://gustavoguanabara.github.io/">Gustavo Guanabara</a> esse atributo aceita vários valores, como por exemplo: 
+<p align = "justify"> O atributo <code>rel</code> é usado para indicar qual é a natureza do destino do link. De acordo com o prof. <a href="https://gustavoguanabara.github.io/" target="_blank">Gustavo Guanabara</a> esse atributo aceita vários valores, como por exemplo: 
+
 
 <ul>
     <li><code>next</code>: indica que o link é referente a próxima parte do documento atual</li> 
