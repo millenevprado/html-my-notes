@@ -464,7 +464,9 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 
 
-### VER CÓDIGO: [exemplo empregando imagens](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
+<strong>VER CÓDIGO:</strong> [exemplo empregando imagens](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/imagens.html).
+
+
 
 
 
