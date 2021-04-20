@@ -447,6 +447,25 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 <h1> <a name = "images"></a>IMAGENS</h1>
 
+<p align = "justify"> Para adicionar uma imagem na página web nós empregamos o elemento <code>&lt;img&gt;</code>, que é um elemento vazio (não tem tag de fechamento). O elemento <code>&lt;img&gt;</code> tem dois atributos básicos que são requeridos:    
+<ul>
+    <li><code>src</code>: (<em>source</em>) especifica o caminho para a imagem.</li>
+    <li><code>alt</code>: (<em>alternative</em>) especifica um texto alternativo para a imagem, que serve caso o usuário, por algum motivo, não puder visualizá-lo (devido à conexão lenta, um erro no atributo <code>src</code> ou se o usuário usar um leitor de tela).</li>
+</ul>
+</p>
+
+```html
+<img src="url" alt="texto alternativo"
+```
+
+
+
+> Um leitor de tela é um programa de *software* que lê o código HTML e permite ao usuário "ouvir" o conteúdo. Os leitores de tela são úteis para pessoas com deficiência visual ou com dificuldades de aprendizagem.
+
+
+
+### VER CÓDIGO: [exemplo empregando imagens](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
+
 
 
 <h1> <a name = "references"></a>REFERÊNCIAS</h1>
