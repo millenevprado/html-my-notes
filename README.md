@@ -468,8 +468,6 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 
 
-
-
 <h1> <a name = "references"></a>REFERÊNCIAS</h1>
 
 
