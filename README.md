@@ -25,6 +25,7 @@
 - [LISTAS](#lists)
 - [LINKS](#links)
 - [IMAGENS](#images)
+- [TABELAS](#tables)
 
 <hr>
 
@@ -443,7 +444,7 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 <strong>VER CÓDIGO:</strong> [exemplo empregando links](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
 
-
+<hr>
 
 <h1> <a name = "images"></a>IMAGENS</h1>
 
@@ -464,7 +465,71 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 
 
+## IMAGENS EM OUTRA PASTA
+
+Se a imagem estiver em uma subpasta é preciso incluir o nome da pasta no atributo <code>src</code>:
+
+```html
+<p>
+    Esta é uma imagem do Coringa que está em uma sub-pasta chamada imagens:
+</p>
+<img src="imagens/coringa_pasta_diferente.png" alt="Figura do coringa">
+```
+
+
+
+## IMAGENS EM OUTRO SERVIDOR/SITE 
+
+Se a imagem estiver localizada em um outro domínio é preciso especificar o caminho completo (URL) da imagem no atributo <code>src</code>:
+
+```html
+<p>
+    Esta é uma imagem do Batman que está no 
+    <a href="https://www.dccomics.com/blog/2020/11/04/five-batman-facts-you-think-are-truebut-arent" target="_blank" rel="external">site da DC Comics</a>
+</p>
+<img src="https://www.dccomics.com/sites/default/files/dc-Comics_Gallery_20181212__BMANN_Cv3_5fa1cc5c7a67a9.15525135.jpg" alt="Foto do batman fornecida pela DC Comics" height="200px">
+```
+
+
+
+## IMAGEM COMO UM <em>LINK</em>
+
+Podemos usar uma imagem como um <em>link</em> colocando a tag <code>img</code> dentro da tag <code>a</code>:
+
+```html
+<a href="https://github.com/millenevprado">
+    <img src="imagens/github.png" alt="Millene Prado - Perfil GitHub">
+</a>
+```
+
+
+
+## FORMATOS DE IMAGENS
+
+Os tipos de arquivos de imagem mais comuns, são:
+
+
+
+| Abreviação | Formato do Arquivo                    | Extensão do Arquivo              |
+| ---------- | ------------------------------------- | -------------------------------- |
+| APNG       | Animated Portable Network Graphics    | .apng                            |
+| GIF        | Graphics Interchange Format           | .gif                             |
+| ICO        | Microsoft Icon                        | .ico, .cur                       |
+| JPEG       | Joint Photographic Expert Group image | .jpg, .jpeg, .jfif, .pjpeg, .pjp |
+| PNG        | Portable Network Graphics             | .png                             |
+| SVG        | Scalable Vector Graphics              | .svg                             |
+
+
+
 <strong>VER CÓDIGO:</strong> [exemplo empregando imagens](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/imagens.html).
+
+<hr>
+
+<h1> <a name = "tables"></a>TABELAS</h1>
+
+
+
+
 
 
 
