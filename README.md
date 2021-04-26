@@ -26,6 +26,7 @@
 - [LINKS](#links)
 - [IMAGENS](#images)
 - [TABELAS](#tables)
+- [FORMULÁRIOS](#forms)
 
 <hr>
 
@@ -442,7 +443,7 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 
 
-<strong>VER CÓDIGO:</strong> [exemplo empregando links](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
+<strong>VER CÓDIGO:</strong> [exemplos empregando links](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/links.html).
 
 <hr>
 
@@ -521,7 +522,7 @@ Os tipos de arquivos de imagem mais comuns, são:
 
 
 
-<strong>VER CÓDIGO:</strong> [exemplo empregando imagens](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/imagens.html).
+<strong>VER CÓDIGO:</strong> [exemplos empregando imagens](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/imagens.html).
 
 <hr>
 
@@ -624,6 +625,80 @@ Por exemplo, podemos criar uma tabela com o horário das aulas matinais da Hermi
 ## MESCLAR LINHAS
 
 Assim como podemos mesclar as colunas de uma tabela, nós podemos também mesclar as linhas empregando o atributo <code>rowspan</code>. 
+
+Por exemplo, podemos criar uma tabela com as vassouras que o Harry Potter teve durante a saga e empregar o atributo  <code>rowspan</code> para mesclar as duas linhas da tabela, conforme ilsutrado abaixo:
+
+
+
+```html
+<table>
+    <tr>
+        <th>Personagem</th>
+        <th>Harry Potter</th>
+    </tr>
+    <tr>
+        <th rowspan="2">Vassouras</th>
+        <td>Firebolt</td>
+    </tr>
+    <tr>
+        <td>Nimbus 2000</td>
+    </tr>
+</table>
+```
+
+
+
+## TÍTULO DA TABELA
+
+Para adicionar um título a tabela, podemos usar a tag <code>&lt;caption&gt;</code>, que deve ser inserida imediatamente depois da tag <code>&lt;table&gt;</code>:
+
+```html
+<table>
+    <caption>Horário de Aula da Hermione</caption>
+    <tr>
+        <th></th>
+		<th>09:00</th>
+		<th>10:00</th>
+		<th>11:00</th>
+		<th>12:00</th>
+	</tr>
+    <tr>
+		<th>Segunda-Feira</th>
+		<td colspan="3">Defesa contra as artes das trevas</td>
+		<td>Poções</td>
+    </tr>
+	<tr>
+        <th>Terça-Feira</th>
+ 		<td>Runas antigas</td>
+        <td colspan="2">Feitços</td>
+        <td>Feitiços</td>
+    </tr> 
+    <tr>
+		<th>Quarta-Feira</th>
+        <td colspan="2">Herbologia</td>
+        <td colspan="2">Transfiguração</td>
+	</tr>
+    <tr>
+        <th>Quinta-Feira</th>
+        <td>Duelos</td>
+        <td>Poções</td>
+        <td colspan="2">História da magia</td>
+    </tr>
+    <tr>
+        <th>Sexta-Feira</th>
+        <td>Feitiços</td>
+        <td colspan="3">Defesa contra as artes das trevas</td>
+    </tr>
+</table>
+```
+
+
+
+<strong>VER CÓDIGO:</strong> [exemplos empregando tabelas](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/imagens.html).
+
+<hr>
+
+<h1> <a name = "forms"></a>FORMULÁRIOS</h1>
 
 
 

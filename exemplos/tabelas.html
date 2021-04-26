@@ -58,6 +58,15 @@
                 </tr>
             </table>
 
+        <h2>Mesclar colunas</h2>
+            <p>
+                Para mesclar mais de uma coluna da tabela, podemos usar
+                o atributo <code>colspan</code>. Por exemplo, podemos 
+                criar uma tabela com o horário das aulas matinais da 
+                Hermione e empregar o atributo <code>colspan</code> para 
+                mesclar as disciplinas que possuem mais de um horário, 
+                como ilustrado abaixo:
+            </p>
             <table>
                 <tr>
                     <th></th>
@@ -94,6 +103,71 @@
                     <td colspan="3">Defesa contra as artes das trevas</td>
                 </tr>
             </table>
+
+        <h2>Mesclar linhas</h2>
+        Assim como podemos mesclar as colunas de uma tabela, 
+        nós podemos também mesclar as linhas empregando o 
+        atributo <code>rowspan</code>. Por exemplo, podemos
+
+            <table>
+                <tr>
+                    <th>Personagem</th>
+                    <th>Harry Potter</th>                    
+                </tr>
+                <tr>
+                    <th rowspan="2">Vassouras</th>
+                    <td>Firebolt</td>
+                </tr>
+                <tr>
+                    <td>Nimbus 2000</td>
+                </tr>
+            </table>
+        
+            <h2>Título da tabela</h2>
+                <p>
+                    Para adicionar um título a tabela, podemos 
+                    usar a tag <code>&lt;caption&gt;</code>:
+                </p>
+
+                <table>
+                    <caption>Horário de Aula da Hermione</caption>
+                    <tr>
+                        <th></th>
+                        <th>09:00</th>
+                        <th>10:00</th>
+                        <th>11:00</th>
+                        <th>12:00</th>
+                    </tr>
+                    <tr>
+                        <th>Segunda-Feira</th>
+                        <td colspan="3">Defesa contra as artes das trevas</td>
+                        <td>Poções</td>
+                    </tr>
+                    <tr>
+                        <th>Terça-Feira</th>
+                        <td>Runas antigas</td>
+                        <td colspan="2">Feitços</td>
+                        <td>Feitiços</td>
+                    </tr>
+                    <tr>
+                        <th>Quarta-Feira</th>
+                        <td colspan="2">Herbologia</td>
+                        <td colspan="2">Transfiguração</td>
+                    </tr>
+                    <tr>
+                        <th>Quinta-Feira</th>
+                        <td>Duelos</td>
+                        <td>Poções</td>
+                        <td colspan="2">História da magia</td>
+                    </tr>
+                    <tr>
+                        <th>Sexta-Feira</th>
+                        <td>Feitiços</td>
+                        <td colspan="3">Defesa contra as artes das trevas</td>
+                    </tr>
+                </table>
+                
+
 
     </body>
 </html>
