@@ -694,7 +694,7 @@ Para adicionar um título a tabela, podemos usar a tag <code>&lt;caption&gt;</co
 
 
 
-<strong>VER CÓDIGO:</strong> [exemplos empregando tabelas](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/imagens.html).
+<strong>VER CÓDIGO:</strong> [exemplos empregando tabelas](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/tabelas.html).
 
 <hr>
 
