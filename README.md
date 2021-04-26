@@ -527,9 +527,103 @@ Os tipos de arquivos de imagem mais comuns, são:
 
 <h1> <a name = "tables"></a>TABELAS</h1>
 
+O elemento <code>&lt;table&gt;</code> é usado para criar tabelas. As linhas da tabela são definidas com a tag <code>&lt;tr&gt;</code> (<em>table row</em>). Os cabeçalhos da tabela são definidos empregando-se a tag <code>&lt;th&gt;</code> (<em>table heading</em>). Cada dado/célula da tabela é definido com uma tag <code>&lt;td&gt;</code> (<em>table data</em>). Por padrão, o texto do elemento <code>&lt;th&gt;</code> é negrito e centralizado e o do elemento <code>&lt;td&gt;</code>  é regular e alinhado à esquerda. 
+
+Por exemplo, podemos criar uma tabela contendo informações sobre as casas de Hogwarts da Saga Harry Potter, como o nome de cada casa, criador da casa, animal símbolo que representa a casa e o fantasma: 
 
 
 
+```html
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Criador</th>
+        <th>Símbolo</th>
+        <th>Fantasma</th>
+    </tr>
+    <tr>
+		<td>Gryffindor</td>
+		<td>Godric Gryffindor</td>
+		<td>Leão</td>
+		<td>Nick Quase-Sem-Cabeça</td>
+    </tr>
+    <tr>
+        <td>Slytherin</td>
+        <td>Salazar Slytherin</td>
+        <td>Cobra</td>
+        <td>Barão Sangrento</td>
+    </tr>
+    <tr>
+        <td>Ravenclaw</td>
+        <td>Rowena Ravenclaw</td>
+        <td>Águia</td>
+        <td>Helena Ravenclaw</td>
+    </tr>
+    <tr>
+        <td>Hufflepuff</td>
+        <td>Helga Hufflepuff</td>
+        <td>Texugo</td>
+        <td>Frei Gorducho</td>
+    </tr>
+</table>
+```
+
+
+
+> Para formatar a tabela, como por exemplo, inserir bordas, espaçamento, alinhamento etc. empregamos as folhas de estilo (CSS).
+
+
+
+## MESCLAR COLUNAS
+
+Para mesclar mais de uma coluna da tabela, podemos usar o atributo <code>colspan</code>. 
+
+Por exemplo, podemos criar uma tabela com o horário das aulas matinais da Hermione e empregar o atributo <code>colspan</code> para mesclar as disciplinas que possuem mais de um horário, como ilustrado abaixo:
+
+```html
+<table>
+    <tr>
+        <th></th>
+		<th>09:00</th>
+		<th>10:00</th>
+		<th>11:00</th>
+		<th>12:00</th>
+	</tr>
+    <tr>
+		<th>Segunda-Feira</th>
+		<td colspan="3">Defesa contra as artes das trevas</td>
+		<td>Poções</td>
+    </tr>
+	<tr>
+        <th>Terça-Feira</th>
+ 		<td>Runas antigas</td>
+        <td colspan="2">Feitços</td>
+        <td>Feitiços</td>
+    </tr> 
+    <tr>
+		<th>Quarta-Feira</th>
+        <td colspan="2">Herbologia</td>
+        <td colspan="2">Transfiguração</td>
+	</tr>
+    <tr>
+        <th>Quinta-Feira</th>
+        <td>Duelos</td>
+        <td>Poções</td>
+        <td colspan="2">História da magia</td>
+    </tr>
+    <tr>
+        <th>Sexta-Feira</th>
+        <td>Feitiços</td>
+        <td colspan="3">Defesa contra as artes das trevas</td>
+    </tr>
+</table>
+```
+
+
+
+## MESCLAR LINHAS
+
+Assim como podemos mesclar as colunas de uma tabela, nós podemos também mesclar as linhas empregando o atributo <code>rowspan</code>. 
 
 
 
