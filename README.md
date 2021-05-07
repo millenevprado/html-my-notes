@@ -719,7 +719,7 @@ Para adicionar um título a tabela, podemos usar a tag <code>&lt;caption&gt;</co
 
 <h1> <a name = "forms"></a>FORMULÁRIOS</h1>
 
-Os formulários HTML fornecem um conjunto de diferentes elementos que permitem coletar informações dos usuários do site. Por exemplo, podemos coletar informações das seguintes formas:
+Os formulários HTML fornecem um conjunto de diferentes elementos que permitem coletar informações dos usuários, que geralmente são enviadas a um servidor para processamento. Por exemplo, podemos coletar informações das seguintes formas:
 
 * Adicionando texto: 
   * <em>text input</em>: usado para uma única linha de texto, como endereço de e-mail e nomes
@@ -730,15 +730,19 @@ Os formulários HTML fornecem um conjunto de diferentes elementos que permitem c
   * <em>Checkboxes</em>: quando o usuário pode selecionar ou desmarcar uma ou mais opções
   * <em>Drowp-down-boxes</em>: quando o usuário deve selecionar uma entre um número de opções de uma lista
 * Submetendo o formulário:
+  
   * <em>Submit buttons</em>: para submeter dados do seu formulário para outra página da web
 * Enviando arquivos:
+  
   * <em>File upload</em>: permite que o usuário envie arquivos (como imagens, pdf etc) para o página da web
+  
+    
 
 
 
 ## ESTRUTURA DO FORMULÁRIO
 
-Podemos criar um formulário usando o elemento <code>&lt;form&gt;</code>, que deve sempre ter o atributo <code>action</code>. O valor do atributo <code>action</code> é a URL da página no servidor que receberá as informações do formulário quando ele for submetido.
+Podemos criar um formulário usando o elemento <code>&lt;form&gt;</code>, que deve sempre ter o atributo <code>action</code>. O valor do atributo <code>action</code> é a URL da página no servidor que receberá as informações do formulário quando ele for submetido. O elemento  <code>&lt;form&gt;</code> é um contêiner para diferentes tipos de elementos de entrada, como por exemplo: campos de texto, caixas de seleção, botões de opção, botões de envio, etc.
 
 
 
