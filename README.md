@@ -665,7 +665,7 @@ Por exemplo, podemos criar uma tabela com as vassouras que o Harry Potter teve d
 </table>
 ```
 
-
+![](imagens/tables/usando_atributo_rowspan.png)
 
 ## TÍTULO DA TABELA
 
@@ -711,7 +711,7 @@ Para adicionar um título a tabela, podemos usar a tag <code>&lt;caption&gt;</co
 </table>
 ```
 
-
+![](imagens/tables/usando_tag_caption.png)
 
 <strong>VER CÓDIGO:</strong> [exemplos empregando tabelas](https://github.com/millenevprado/html-my-notes/blob/main/exemplos/tabelas.html).
 
