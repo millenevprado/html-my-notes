@@ -258,6 +258,8 @@ Seguindo a estrutura básica do documento HTML, mostrado acima, podemos criar a 
 </p>
 ```
 
+![](imagens/lists/usando_tag_abb.png)
+
 
 
 <p align = "justify">Quando estamos referenciando um trabalho como um livro, filme ou artigo de pesquisa, o elemento &lt;cite&gt; pode ser usado para indicar a origem da citação. O texto no elemento &lt;cite&gt; geralmente é renderizado em itálico. </p>
@@ -466,6 +468,21 @@ Usando o atributo <code>rel</code> com o valor <code>next:</code>
 
 
 
+## IMAGENS NA MESMA PASTA
+
+Quando a imagem está na mesma pasta, na pasta raiz do projeto, basta colocar o nome da imagem no atributo <code>src</code>:
+
+```html
+<p>
+    Esta é uma imagem do Batman que está na mesma pasta:
+</p>
+<img src="batman_na_mesma_pasta.png" alt="Figura do batman">
+```
+
+![](imagens/images/img_mesma_pasta.png)
+
+
+
 ## IMAGENS EM OUTRA PASTA
 
 Se a imagem estiver em uma subpasta é preciso incluir o nome da pasta no atributo <code>src</code>:
@@ -476,6 +493,8 @@ Se a imagem estiver em uma subpasta é preciso incluir o nome da pasta no atribu
 </p>
 <img src="imagens/coringa_pasta_diferente.png" alt="Figura do coringa">
 ```
+
+![](imagens/images/img_subpasta.png)
 
 
 
@@ -491,7 +510,7 @@ Se a imagem estiver localizada em um outro domínio é preciso especificar o cam
 <img src="https://www.dccomics.com/sites/default/files/dc-Comics_Gallery_20181212__BMANN_Cv3_5fa1cc5c7a67a9.15525135.jpg" alt="Foto do batman fornecida pela DC Comics" height="200px">
 ```
 
-
+![](imagens/images/img_outro_dominio.png)
 
 ## IMAGEM COMO UM <em>LINK</em>
 
@@ -503,7 +522,7 @@ Podemos usar uma imagem como um <em>link</em> colocando a tag <code>img</code> d
 </a>
 ```
 
-
+![](imagens/images/img_como_link.png)
 
 ## FORMATOS DE IMAGENS
 
@@ -569,7 +588,7 @@ Por exemplo, podemos criar uma tabela contendo informações sobre as casas de H
 </table>
 ```
 
-
+![](imagens/tables/usando_tag_table.png)
 
 > Para formatar a tabela, como por exemplo, inserir bordas, espaçamento, alinhamento etc. empregamos as folhas de estilo (CSS).
 
@@ -620,7 +639,7 @@ Por exemplo, podemos criar uma tabela com o horário das aulas matinais da Hermi
 </table>
 ```
 
-
+![](imagens/tables/usando_atributo_colspan.png)
 
 ## MESCLAR LINHAS
 
