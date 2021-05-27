@@ -744,7 +744,7 @@ Os formulários HTML fornecem um conjunto de diferentes elementos que permitem c
 
 Podemos criar um formulário usando o elemento <code>&lt;form&gt;</code>, que deve sempre ter o atributo <code>action</code>. O valor do atributo <code>action</code> é a URL da página no servidor que receberá as informações do formulário quando ele for submetido. O elemento  <code>&lt;form&gt;</code> é um contêiner para diferentes tipos de elementos de entrada, como por exemplo: campos de texto, caixas de seleção, botões de opção, botões de envio, etc.
 
-TESTE!
+
 
 <h1> <a name = "references"></a>REFERÊNCIAS</h1>
 
